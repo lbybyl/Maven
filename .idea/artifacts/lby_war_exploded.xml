@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="lby:war exploded">
+    <output-path>$APPLICATION_HOME_DIR$/apache-tomcat-9.0.7</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="lby/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="lby" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
